@@ -110,7 +110,9 @@
     "src/**/*.ts",
     ".eslintrc.cjs",
     "vite.config.ts",
-    "validate-branch-name.config.cjs"
+    "validate-branch-name.config.cjs",
+    "**/*.ts",
+    "jest.config.js"
   ],
   "exclude": ["node_modules", "dist"]
 }
